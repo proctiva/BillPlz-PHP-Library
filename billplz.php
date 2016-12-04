@@ -1,6 +1,6 @@
 <?PHP
 
-function billplz ($name, $email, $amount, $mobile, $callback, $delivery) {
+function billplz_create_bill ($name, $email, $amount, $mobile, $callback, $delivery) {
 
 $url = 'https://www.billplz.com/api/v2/bills'; // Live
 // $url = 'https://billplz-staging.herokuapp.com'; // For Sandbox
